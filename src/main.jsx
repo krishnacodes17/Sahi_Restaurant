@@ -1,0 +1,30 @@
+import { createRoot } from "react-dom/client";
+import "./index.css";
+import AppRoutes from "./routes/appRoutes.jsx";
+import { Provider } from "react-redux";
+import { store } from "./app/store/store.jsx";
+import { ToastContainer } from "react-toastify";
+import {
+  QueryClient,
+  QueryClientProvider,
+} from "@tanstack/react-query";
+
+
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      staleTime: 5 * 60 * 1000,
+      retry: 1,
+      refetchOnWindowFocus: false,
+    },
+  },
+})
+
+createRoot(document.getElementById("root")).render(
+  <QueryClientProvider client={queryClient}>
+    <Provider store={store}>
+      <AppRoutes />
+      <ToastContainer />
+    </Provider>
+  </QueryClientProvider>,
+);
