@@ -13,7 +13,8 @@
     { "source": "/home/contact", "destination": "/index.html" },
     { "source": "/home/terms", "destination": "/index.html" },
     { "source": "/home/privacy", "destination": "/index.html" },
-    { "source": "/home/recipe/:id", "destination": "/index.html" }
+    { "source": "/home/recipe/:id", "destination": "/index.html" },
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
     
