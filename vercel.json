@@ -1,0 +1,18 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/register", "destination": "/index.html" },
+    { "source": "/home", "destination": "/index.html" },
+    { "source": "/home/menu", "destination": "/index.html" },
+    { "source": "/home/cart", "destination": "/index.html" },
+    { "source": "/home/profile", "destination": "/index.html" },
+    { "source": "/home/orders", "destination": "/index.html" },
+    { "source": "/home/favorites", "destination": "/index.html" },
+    { "source": "/home/about", "destination": "/index.html" },
+    { "source": "/home/contact", "destination": "/index.html" },
+    { "source": "/home/terms", "destination": "/index.html" },
+    { "source": "/home/privacy", "destination": "/index.html" },
+    { "source": "/home/recipe/:id", "destination": "/index.html" }
+  ]
+}
