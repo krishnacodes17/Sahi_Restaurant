@@ -20,7 +20,7 @@ A full-featured food ordering and recipe exploration web app — browse recipes 
 
 > A modern food ordering and recipe exploration web application built with React.
 
-[🌐 Live Demo](YOUR_DEPLOYED_URL) · [📦 GitHub Repository](YOUR_GITHUB_URL)
+[🌐 Live Demo](https://sahi-restaurant.vercel.app/) · [📦 GitHub Repository](https://github.com/krishnacodes17/Sahi_Restaurant)
 
 
 ##  What It Does
