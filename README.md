@@ -7,13 +7,13 @@ A full-featured food ordering and recipe exploration web app — browse recipes 
 ##  Screenshots
 
 ### Home
-![Home Page](./dist/demo/homePage.png)
+![Home Page](./public//demo/homePage.png)
 
 ### Recipe Details
-![Recipe Details](./dist/demo/Recipe%20Detail.png)
+![Recipe Details](./public/demo/Recipe%20Detail.png)
 
 ### Cart
-![Cart](./dist/demo/cart.png)
+![Cart](./public/demo//cart.png)
 
 
 # 🍽️ Sahi Restaurant
