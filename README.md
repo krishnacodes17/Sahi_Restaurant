@@ -1,10 +1,27 @@
-# Sahi Restaurant 🍽️
+# SAHI RESTAURANT 
 
 A full-featured food ordering and recipe exploration web app — browse recipes by category, dig into details, add dishes to your cart, place orders, and keep a list of favorites. Think of it as a small-scale food delivery experience, built from scratch to understand how real-world React applications are structured.
 
-> **Status:** Actively maintained · Built as a portfolio project to demonstrate production-style architecture, not just another todo app.
 
----
+
+##  Screenshots
+
+### Home
+![Home Page](./dist/demo/homePage.png)
+
+### Recipe Details
+![Recipe Details](./dist/demo/Recipe%20Detail.png)
+
+### Cart
+![Cart](./dist/demo/cart.png)
+
+
+# 🍽️ Sahi Restaurant
+
+> A modern food ordering and recipe exploration web application built with React.
+
+[🌐 Live Demo](YOUR_DEPLOYED_URL) · [📦 GitHub Repository](YOUR_GITHUB_URL)
+
 
 ##  What It Does
 

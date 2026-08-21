@@ -1,6 +1,6 @@
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import AppRoutes from "./routes/appRoutes.jsx";
+import AppRoutes from "./routes/AppRoutes.jsx";
 import { Provider } from "react-redux";
 import { store } from "./app/store/store.jsx";
 import { ToastContainer } from "react-toastify";
