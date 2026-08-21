@@ -16,3 +16,4 @@
     { "source": "/home/recipe/:id", "destination": "/index.html" }
   ]
 }
+    
